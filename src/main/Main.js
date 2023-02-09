@@ -11,8 +11,7 @@ export const Main = () => {
               <h1>I am Loki, prince of Asgard, son of Odin!</h1>
               <p>Front End Developer</p>
            </div>
-           <div className={s.photo}>
-           </div>
+           <div className={s.photo}></div>
         </div>
      </div>
    );
