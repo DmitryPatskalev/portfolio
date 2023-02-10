@@ -1,0 +1,36 @@
+.footerBlock {
+   background-color: aliceblue;
+}
+
+.footerContainer {
+   flex-direction: column;
+   justify-content: space-evenly;
+   min-height: 30vh;
+   background-color: lemonchiffon;
+}
+
+.titleName {
+   background-color: lightgray;
+   margin-top: 0;
+   margin-bottom: 10px;
+}
+
+.socialNetworkBlock {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   width: 272px;
+   height: 60px;
+}
+
+.socialNetworkBlock div {
+   width: 60px;
+   height: 60px;
+   background-color: gray;
+}
+
+.rightReserved {
+   font-size: 14px;
+   font-weight: bold;
+}
