@@ -20,14 +20,15 @@
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
-   width: 272px;
+   width: 260px;
    height: 60px;
+
 }
 
 .socialNetworkBlock div {
    width: 60px;
    height: 60px;
-   background-color: gray;
+   background-color: lightblue;
 }
 
 .rightReserved {

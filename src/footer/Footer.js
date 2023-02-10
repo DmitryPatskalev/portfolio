@@ -2,6 +2,7 @@ import React from 'react';
 import s from './Footer.module.css'
 import style from './../common/styles/Container.module.css'
 
+
 export const Footer = () => {
    return (
      <div className={s.footerBlock}>

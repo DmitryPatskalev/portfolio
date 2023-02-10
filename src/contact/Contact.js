@@ -3,6 +3,9 @@ import style from './../common/styles/Container.module.css'
 import s from './Contact.module.css'
 
 export const Contact = () => {
+   const onClickHundler = (e)=>{
+      e.preventDefault()
+   }
    return (
      <div className={s.contactBlock}>
         <div className={`${style.container} ${s.contactContainer}`}>
@@ -10,9 +13,10 @@ export const Contact = () => {
            <form className={s.contactsForm}>
               <input type="text"/>
               <input type="text"/>
-              <textarea name="" id="" cols="30" rows="4"></textarea>
+              <textarea cols="30" rows="4"></textarea>
+              <button onClick={onClickHundler} className={s.buttonSend}>Send</button>
            </form>
-           <button className={s.buttonSend}>Send</button>
+
         </div>
      </div>
 
