@@ -1,5 +1,8 @@
 * {
    box-sizing: border-box;
+   --body-font: "Nunito",Helvetica,Arial,sans-serif;
+   --title-font: "Saira",Helvetica,Arial,sans-serif;
+   --primary-color-rgb: 207,31,31;
 }
 
 .App {

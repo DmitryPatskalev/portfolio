@@ -1,8 +1,8 @@
 import React from 'react';
 import s from './Projects.module.css'
 import style from "../common/styles/Container.module.css";
-import todolist from '../img/todolist.jpeg'
-import social from './../img/social.jpeg'
+import {Project} from "./project/Project";
+
 
 export const Projects = () => {
    return (
@@ -10,20 +10,7 @@ export const Projects = () => {
         <div className={`${style.container} ${s.projectContainer}`}>
            <h2 className={s.title}>My Projects</h2>
            <div className={s.projectItems}>
-              <div className={s.project}>
-                 <div className={s.avatarProject}>
-                    <img className={s.projectImg} src={todolist} alt={'todolist'}/>
-                 </div>
-                 <div className={s.projectName}>name of project</div>
-                 <div className={s.projectDescription}>short description</div>
-              </div>
-              <div className={s.project}>
-                 <div className={s.avatarProject}>
-                    <img className={s.projectImg} src={social} alt={'social'}/>
-                 </div>
-                 <div className={s.projectName}>name of project</div>
-                 <div className={s.projectDescription}>short description</div>
-              </div>
+              <Project/>
            </div>
         </div>
      </div>
