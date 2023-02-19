@@ -11,12 +11,6 @@
    background-color: #b8f3b8;
 }
 
-.title {
-   background-color: lavender;
-   margin-top: 0;
-   margin-bottom: 40px;
-}
-
 .skills {
    display: flex;
    flex-wrap: wrap;

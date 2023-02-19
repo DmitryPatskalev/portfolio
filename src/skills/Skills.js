@@ -2,6 +2,7 @@ import React from 'react';
 import s from './Skills.module.css'
 import style from './../common/styles/Container.module.css'
 import {Skill} from "./Skill/Skill";
+import {Title} from "../common/title/Title";
 
 const arrOfSkills = [
    {id: 'react', title: 'React', description: 'Lorem ipsum dolor sit amet, consectetur'},
@@ -19,7 +20,7 @@ export const Skills = () => {
    return (
      <div className={s.skillsBlock}>
         <div className={`${style.container} ${s.skillsContainer}`}>
-           <h2 className={s.title}>Skills</h2>
+           <Title title={'Skills'}/>
            <div className={s.skills}>
               {skills}
            </div>

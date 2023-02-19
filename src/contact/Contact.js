@@ -1,15 +1,16 @@
 import React from 'react';
 import style from './../common/styles/Container.module.css'
 import s from './Contact.module.css'
+import {Title} from "../common/title/Title";
 
 export const Contact = () => {
-   const onClickHundler = (e)=>{
+   const onClickHundler = (e) => {
       e.preventDefault()
    }
    return (
      <div className={s.contactBlock}>
         <div className={`${style.container} ${s.contactContainer}`}>
-           <h2 className={s.title}>Contact</h2>
+           <Title title={'Contact'}/>
            <form className={s.contactsForm}>
               <input type="text"/>
               <input type="text"/>

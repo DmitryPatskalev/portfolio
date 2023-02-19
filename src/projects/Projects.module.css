@@ -8,9 +8,6 @@
     justify-content: space-evenly;
 }
 
-.title {
-    color: white;
-}
 
 .projectItems {
     display: flex;

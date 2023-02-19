@@ -10,9 +10,9 @@
 }
 
 .titleName {
-   background-color: lightgray;
-   margin-top: 0;
-   margin-bottom: 10px;
+   letter-spacing: 3px;
+
+   margin: 0;
 }
 
 .socialNetworkBlock {

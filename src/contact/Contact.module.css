@@ -9,12 +9,6 @@
    background-color: lightgray;
 }
 
-.title {
-   background-color: lightseagreen;
-   margin-top: 0;
-   margin-bottom: 40px;
-}
-
 .contactsForm {
    display: flex;
    flex-direction: column;
