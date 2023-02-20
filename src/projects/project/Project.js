@@ -1,5 +1,5 @@
 import React from 'react';
-import s from "./Project.module.css";
+import s from "./Project.module.scss";
 import todolist from "../../img/todolist.jpeg";
 import social from "../../img/social.jpeg";
 
@@ -15,7 +15,7 @@ export const Project = () => {
         {projects.map(p => {
            return <div className={s.project}>
               <div key={p.id} className={s.avatarProject}>
-                 <img className={s.projectImg} src={p.img} alt={'todolist'}/>
+                <img className={s.projectImg} src={p.img} alt={'todolist'}/>
               </div>
               <div className={s.projectName}>{p.title}</div>
               <div className={s.projectDescription}>{p.description}</div>

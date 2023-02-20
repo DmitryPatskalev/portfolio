@@ -1,0 +1,11 @@
+.nav {
+  display: flex;
+  border: 1px solid firebrick;
+  width: 360px;
+  justify-content: space-between;
+
+  a {
+    text-decoration: none;
+  }
+}
+

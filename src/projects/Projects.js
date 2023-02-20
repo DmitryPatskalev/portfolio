@@ -1,6 +1,6 @@
 import React from 'react';
-import s from './Projects.module.css'
-import style from "../common/styles/Container.module.css";
+import s from './Projects.module.scss'
+import style from "../common/styles/Container.module.scss";
 import {Project} from "./project/Project";
 import {Title} from "../common/title/Title";
 

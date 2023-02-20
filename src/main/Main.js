@@ -1,6 +1,6 @@
 import React from 'react';
-import s from './Main.module.css'
-import style from './../common/styles/Container.module.css'
+import s from './Main.module.scss'
+import style from '../common/styles/Container.module.scss'
 import avatar from './../img/Loki.jpeg'
 
 export const Main = () => {
